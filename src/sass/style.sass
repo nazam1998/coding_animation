@@ -1,0 +1,24 @@
+#code
+    position: absolute
+    top: 50%
+    left: 35%
+    z-index: 5
+span
+    font-size: 50px
+    transition: 0.5s
+    border-radius: 1px
+    transform: scaleY(0px) rotate(0deg)
+.move
+    position: relative
+    text-shadow: 3px 3px grey
+    font-size: 400%
+    bottom: 50%
+    transform: scaleY(50px) rotate(360deg)
+
+.blink 
+    animation: blinker 0.2s infinite linear
+    font-size: 500%
+
+@keyframes blinker
+  50% 
+    opacity: 0
